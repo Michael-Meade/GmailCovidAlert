@@ -17,3 +17,9 @@ Scapes my edu for emails by the school. If it detects a email it will send a mes
 
 # crontab 
 Every minute the job will run the script which will check your email for a message from the school. To make sure there is no dups, it will check if the publish date is the same. If it is different the script will assume the email is new and send a message in discord. 
+
+
+# Step Up
+
+- If a directory named `configs` doesnt exist. The script will create a new directory. 
+- `configs/utica.txt` is where the script keeps track of the the publish date. This ensures that the script will not detect old emails and spam discord.
